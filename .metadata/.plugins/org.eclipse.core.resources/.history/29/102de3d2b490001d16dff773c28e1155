@@ -1,0 +1,5 @@
+package com.kafkaintegration.contoller;
+
+public class Endpoint {
+
+}

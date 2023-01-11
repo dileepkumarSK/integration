@@ -1,0 +1,13 @@
+package com.kafkaintegrationconsumer.configs;
+
+import org.springframework.messaging.Message;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Listener {
+
+	public void listen(Message<String> s)
+	{
+		System.err.println(s.toString());
+	}	
+}

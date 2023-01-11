@@ -1,0 +1,9 @@
+
+
+java:S1128"URemove this unused import 'org.springframework.integration.config.EnableIntegration'.(ˆÏĞúÿÿÿÿ8üËÂìÃ0H›8RMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬8´ÆÜìÃ0H8RMAJORZ
+CODE_SMELL
+’
+java:S1128"`Remove this unused import 'org.springframework.integration.annotation.IntegrationComponentScan'.(“ãÁ28üËÂìÃ0H 8RMINORZ
+CODE_SMELL

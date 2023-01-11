@@ -1,0 +1,23 @@
+package com.splitter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.integration.annotation.Splitter;
+import org.springframework.integration.splitter.AbstractMessageSplitter;
+import org.springframework.integration.splitter.MethodInvokingSplitter;
+
+@SpringBootApplication
+public class SpringIntegrationSpillterAndAggregatorApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIntegrationSpillterAndAggregatorApplication.class, args);
+	}
+
+	@Splitter
+	@Bean
+	public AbstractMessageSplitter spiltter()
+	{
+		return  new MethodInvokingSplitter().setOutputChannel("spliiteingsending.to.service");;
+	}
+}

@@ -1,0 +1,31 @@
+package com.jenkins.contollers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jenkins.entitys.AnswerSheetsOfQuestionpaper;
+import com.jenkins.services.ValidationOfExam;
+
+@RestController
+@RequestMapping("/")
+public class AdminContoller {
+
+	
+	  @Autowired ValidationOfExam service;
+	  
+	  @GetMapping("/validate") public Integer validtaion(@RequestBody
+	  List<AnswerSheetsOfQuestionpaper> q) {
+	  
+	  return service.vadidatingMarks(q); }
+	  
+	  @PostMapping("/addanswersheet") public List<AnswerSheetsOfQuestionpaper>
+	  addAnswerSheet(@RequestBody List<AnswerSheetsOfQuestionpaper> a) { return
+	  service.addAnswerSheet(a); }
+	 
+}

@@ -1,0 +1,14 @@
+package com.jsonAll.pojos;
+
+import lombok.Data;
+
+@Data
+
+public class Emp {
+	private int id;
+	private String name;
+	private boolean permanent;
+	
+	private long[] phoneNumbers;
+	private String role;
+}

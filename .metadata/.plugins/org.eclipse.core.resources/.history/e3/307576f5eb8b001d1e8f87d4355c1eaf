@@ -1,0 +1,13 @@
+package com.jenkins.entitys;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class AnswerSheetsOfQuestionpaper {
+
+	public  Integer qno;
+	@Id
+	public String  questionPaperNo;
+	public char answer;
+}

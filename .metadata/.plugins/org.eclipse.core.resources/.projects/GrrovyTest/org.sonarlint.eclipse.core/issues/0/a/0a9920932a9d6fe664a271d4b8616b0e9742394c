@@ -1,0 +1,12 @@
+
+{
+java:S1128"CRemove this unused import 'javax.management.RuntimeErrorException'.(ÍÖÅÓøÿÿÿÿ8…½Ì0Hé@RMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Û„Â—Ì0H¥ARMINORZ
+CODE_SMELL
+}	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8åÿÓ‘Ì0H”ARMAJORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ğÓ“·Ì0H¸ARMINORZ
+CODE_SMELL

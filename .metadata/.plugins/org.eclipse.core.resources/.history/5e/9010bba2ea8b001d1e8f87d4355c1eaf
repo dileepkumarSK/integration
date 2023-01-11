@@ -1,0 +1,15 @@
+package com.jenkins.pojos;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Questionpaper {
+
+	private Integer qno;
+	private char answer;
+	
+}

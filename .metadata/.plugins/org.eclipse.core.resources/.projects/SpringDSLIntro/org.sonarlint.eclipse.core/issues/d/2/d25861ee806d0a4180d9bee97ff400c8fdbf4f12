@@ -1,0 +1,9 @@
+
+n	java:S125"<This block of commented-out lines of code should be removed.(Ë×‚Ú8ø„ÂÊÈ0H½<RMAJORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä¿ü8H¾<RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(©ÏÖİ8ÌŠÄÊÈ0H¿<RMAJORZ
+CODE_SMELL
+v
+java:S2259 "EA "NullPointerException" could be thrown; "channel" is nullable here.(òõúÿÿÿÿ8½ÄøĞÈ0HÀ<RMAJORZBUG

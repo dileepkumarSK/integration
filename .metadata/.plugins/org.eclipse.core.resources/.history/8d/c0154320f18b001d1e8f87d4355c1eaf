@@ -1,0 +1,39 @@
+package com.jenkins.services;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jenkins.entitys.AnswerSheetsOfQuestionpaper;
+import com.jenkins.pojos.QuestionpaperAnswers;
+import com.jenkins.repositaries.Reposiatry;
+
+@Service
+public class ValidationOfExam {
+	@Autowired
+	private Reposiatry repo;
+
+	public Integer vadidatingMarks(List<AnswerSheetsOfQuestionpaper> q) {
+		
+		class Sorted implements Comparator<AnswerSheetsOfQuestionpaper> {
+
+			@Override
+			public int compare(AnswerSheetsOfQuestionpaper o1, AnswerSheetsOfQuestionpaper o2) {
+
+				return o1.qno - o2.qno;
+			}
+
+		}
+		Collections.sort(q,new Sorted());
+
+		List<AnswerSheetsOfQuestionpaper> answer = repo.findByquestionPaperNoByqnoAsc();
+		int x = 0;
+
+		return x;
+	}
+
+}

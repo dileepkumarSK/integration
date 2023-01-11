@@ -1,0 +1,9 @@
+package com.kafkaintegration.contoller;
+
+public class Student {
+
+	String name;
+	String roolno;
+	String marks;
+	
+}

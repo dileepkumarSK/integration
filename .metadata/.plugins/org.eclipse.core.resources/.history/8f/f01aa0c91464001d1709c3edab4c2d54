@@ -1,0 +1,20 @@
+package com.splitter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.integration.splitter.AbstractMessageSplitter;
+import org.springframework.util.MethodInvoker;
+
+@SpringBootApplication
+public class SpringIntegrationSpillterAndAggregatorApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIntegrationSpillterAndAggregatorApplication.class, args);
+	}
+
+	
+	public AbstractMessageSplitter spiltter()
+	{
+		return  new MethodInvoker()I;
+	}
+}

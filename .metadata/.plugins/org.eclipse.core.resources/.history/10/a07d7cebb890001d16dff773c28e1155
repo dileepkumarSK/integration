@@ -1,0 +1,23 @@
+package com.kafkaintegration.flow;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.integration.dsl.IntegrationFlow;
+import org.springframework.integration.dsl.IntegrationFlows;
+
+import com.kafkaintegration.contoller.Student;
+
+@Configuration
+public class Flows {
+
+	@Bean
+	public IntegrationFlow flow1() {
+		return IntegrationFlows.from("dataSendToKafka")
+				.filter(s->s!=null).transform(Student.class,m->  this::m).get();
+	}
+	
+	 public Student m(Student s) {
+		s.setMarks("123");
+		return s;
+	} 
+}

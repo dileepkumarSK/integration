@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/skumar/git/spring-file-poller/.git\:/home/skumar/git/integration/.git\:/home/skumar/Documents/DILEEP/outside pro from github/spring-boot-api-example/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/skumar/git/spring-file-poller/.git\:/home/skumar/git/integration/.git\:/home/skumar/Documents/DILEEP/outside pro from github/spring-boot-api-example/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

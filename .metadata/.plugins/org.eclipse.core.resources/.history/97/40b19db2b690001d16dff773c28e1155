@@ -1,0 +1,11 @@
+package com.kafkaintegration.flow;
+
+import org.springframework.integration.annotation.MessagingGateway;
+
+import com.kafkaintegration.contoller.Student;
+
+@MessagingGateway
+public interface IntegrationGateways {
+    
+	Student send(Student s);
+}

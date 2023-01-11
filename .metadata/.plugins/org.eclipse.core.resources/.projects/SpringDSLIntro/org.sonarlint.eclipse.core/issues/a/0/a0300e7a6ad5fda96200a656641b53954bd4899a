@@ -1,0 +1,10 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä¿ü8Hž<RMINORZ
+CODE_SMELL
+d	java:S1061"9Replace this use of System.out or System.err by a logger.(Õ˜ÙåHŸ<RMAJORZ
+CODE_SMELL
+‰
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäþÿÿÿÿ8’Æ•¥È0H <RMINORZ
+CODE_SMELL
+i	java:S106*"9Replace this use of System.out or System.err by a logger.(½±ÀµûÿÿÿÿH¢<RMAJORZ
+CODE_SMELL

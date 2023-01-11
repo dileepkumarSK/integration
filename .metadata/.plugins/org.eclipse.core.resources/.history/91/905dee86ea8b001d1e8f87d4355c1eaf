@@ -1,0 +1,13 @@
+package com.jenkins.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ValidationOfExam {
+
+	
+	public Integer vadidatingMarks() {
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+
+É	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¶ê˜8Êü€≤Ÿ0H±VRMINORZ
+CODE_SMELL
+é	java:S116"\Rename this field "StudentRepository" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù≠®8Êü€≤Ÿ0H≤VRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ø‚≠¶8Êü€≤Ÿ0H≥VRMAJORZ
+CODE_SMELL
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(ø‚≠¶8Êü€≤Ÿ0H¥VRMAJORZ
+CODE_SMELL

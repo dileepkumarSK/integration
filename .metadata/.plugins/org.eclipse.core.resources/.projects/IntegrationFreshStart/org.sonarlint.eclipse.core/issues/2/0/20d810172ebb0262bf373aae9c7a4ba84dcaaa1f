@@ -1,0 +1,15 @@
+
+s	java:S125"<This block of commented-out lines of code should be removed.(Úœ£üÿÿÿÿ8Ûı×áÅ0HëRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(‰†¦Œşÿÿÿÿ8‘Ö·ŞÅ0HÕ
+RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(„È‰âıÿÿÿÿ8Ûı×áÅ0HìRMAJORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(÷½ùüÿÿÿÿ8ÛÖåáÅ0H“RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(¾Èşùÿÿÿÿ8öóçáÅ0H•RMAJORZ
+CODE_SMELL
+y
+java:S1128"ARemove this unused import 'com.integration.beans.MyhelloService'.(¥öøïùÿÿÿÿ8öóçáÅ0H–RMINORZ
+CODE_SMELL

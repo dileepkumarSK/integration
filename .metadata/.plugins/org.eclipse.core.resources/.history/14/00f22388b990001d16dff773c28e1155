@@ -1,0 +1,31 @@
+package com.kafkaintegration.flow;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.integration.dsl.IntegrationFlow;
+import org.springframework.integration.dsl.IntegrationFlows;
+import org.springframework.integration.kafka.dsl.Kafka;
+import org.springframework.kafka.core.KafkaTemplate;
+
+import com.kafkaintegration.contoller.Student;
+
+@Configuration
+public class Flows {
+   @Autowired
+ private KafkaTemplate<String, String> kafkaTemplate;
+	
+	@Bean
+	public IntegrationFlow flow1() {
+		return IntegrationFlows.from("dataSendToKafka")
+				.filter(s->s!=null).transform(Student.class,this::m)
+				.handle(Kafka.outboundChannelAdapter(kafkaTemplate)
+						.topic()
+						.messageKey(CDCPatronEventCompQueueResponseMessageIntFlow::apply)).get();
+	}
+	
+	 public Student m(Student s) {
+		s.setMarks("123");
+		return s;
+	} 
+}

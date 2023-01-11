@@ -1,0 +1,5 @@
+package com.jenkins.repositaries;
+
+public interface Reposiatry {
+
+}

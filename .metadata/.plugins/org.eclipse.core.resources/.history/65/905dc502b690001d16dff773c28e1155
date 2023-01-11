@@ -1,0 +1,15 @@
+package com.kafkaintegration.contoller;
+
+import org.springframework.messaging.Message;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping
+public class Endpoint {
+
+	public Message<Student> messagesent(@RequestBody Student s){
+		return (Message<Student>) s;
+	}
+}

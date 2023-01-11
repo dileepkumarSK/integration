@@ -1,0 +1,8 @@
+package com.kafkaintegration.flow;
+
+import org.springframework.integration.annotation.MessagingGateway;
+
+@MessagingGateway
+public interface IntegrationGateways {
+
+}

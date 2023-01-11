@@ -1,0 +1,5 @@
+package com.jenkins.services;
+
+public class ValidationOfExam {
+
+}

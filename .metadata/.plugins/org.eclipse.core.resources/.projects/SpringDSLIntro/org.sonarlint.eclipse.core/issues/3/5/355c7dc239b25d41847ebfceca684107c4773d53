@@ -1,0 +1,22 @@
+
+k	java:S106;"9Replace this use of System.out or System.err by a logger.(»±÷8Û«ó—Ê0H@RMAJORZ
+CODE_SMELL
+
+java:S1192"LDefine a constant instead of duplicating this literal "pubsubflow2" 3 times.(ğ™±8à€Ô—Ê0H@RCRITICALZ
+CODE_SMELL
+s	java:S125@"<This block of commented-out lines of code should be removed.(‡Ø„­úÿÿÿÿ8×ÅúšÊ0H”@RMAJORZ
+CODE_SMELL
+‡
+java:S1192"LDefine a constant instead of duplicating this literal "pubsubflow4" 3 times.(¡äÈŠüÿÿÿÿ8à€Ô—Ê0Hš@RCRITICALZ
+CODE_SMELL
+‚
+java:S1192"GDefine a constant instead of duplicating this literal "output" 4 times.(Íæè¬úÿÿÿÿ8»œûšÊ0H@RCRITICALZ
+CODE_SMELL
+‚
+java:S1192"LDefine a constant instead of duplicating this literal "pubsubflow1" 4 times.(–·ó8Ü‹Ğ–Ê0H£@RCRITICALZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä¿ü8H¨@RMINORZ
+CODE_SMELL
+‡
+java:S1192"LDefine a constant instead of duplicating this literal "pubsubflow3" 3 times.(¡äÈŠüÿÿÿÿ8à€Ô—Ê0H©@RCRITICALZ
+CODE_SMELL

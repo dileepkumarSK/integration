@@ -1,0 +1,15 @@
+package com.kafkaintegrationconsumer.configs;
+
+import org.springframework.integration.annotation.ServiceActivator;
+import org.springframework.messaging.Message;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Listener {
+
+	@ServiceActivator(inputChannel = "consumerChannel")
+	public void listen(Message<String> s)
+	{
+		System.err.println(s.toString());
+	}	
+}

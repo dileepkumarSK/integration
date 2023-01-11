@@ -1,0 +1,16 @@
+
+‡
+java:S1128"ORemove this unused import 'org.springframework.integration.core.MessageSource'.(•è•Ýùÿÿÿÿ8…ß¦ÙÅ0H·	RMINORZ
+CODE_SMELL
+\
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8…ß¦ÙÅ0Hµ	RMINORZ
+CODE_SMELL
+–
+java:S1128"cRemove this unused import 'org.springframework.integration.endpoint.MessageProcessorMessageSource'.(ÌÂÿ°8…ß¦ÙÅ0H¹	RMINORZ
+CODE_SMELL
+|
+java:S1128"IRemove this unused import 'org.springframework.messaging.MessageHandler'.(ÔÈÁó8…ß¦ÙÅ0H½	RMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.integration.support.MessageBuilder'.(‹ðÉÎüÿÿÿÿ8…ß¦ÙÅ0H»	RMINORZ
+CODE_SMELL

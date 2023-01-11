@@ -1,0 +1,14 @@
+package com.kafkaintegration.contoller;
+
+public class Student {
+
+	String name;
+	String roolno;
+	String marks;
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", roolno=" + roolno + ", marks=" + marks + "]";
+	}
+	
+	
+}

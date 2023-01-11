@@ -1,0 +1,13 @@
+package com.splitter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringIntegrationSpillterAndAggregatorApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIntegrationSpillterAndAggregatorApplication.class, args);
+	}
+
+}

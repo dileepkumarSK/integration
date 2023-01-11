@@ -1,0 +1,15 @@
+
+q
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ƒä½)Hë7RCRITICALZVULNERABILITY
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àø‰ÌûÿÿÿÿHì7RMINORZ
+CODE_SMELL
+Š
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(Çž§ýúÿÿÿÿHí7RMINORZ
+CODE_SMELL
+d	java:S106 "9Replace this use of System.out or System.err by a logger.(³ÕÀßHï7RMAJORZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(Ê£èµHð7RMAJORZ
+CODE_SMELL
+‚
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.ResponseBody'.(•¶¶êøÿÿÿÿHñ7RMINORZ
+CODE_SMELL

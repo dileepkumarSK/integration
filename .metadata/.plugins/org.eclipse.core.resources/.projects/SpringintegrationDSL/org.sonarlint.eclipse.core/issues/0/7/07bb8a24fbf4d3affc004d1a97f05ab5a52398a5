@@ -1,0 +1,38 @@
+
+n
+java:S1128"BRemove this unused import 'org.springframework.messaging.Message'.(–¬•ïH¥8RMINORZ
+CODE_SMELL
+h
+java:S1128"7Remove this unused import 'javax.xml.bind.JAXBContext'.(ŽÏ–’ùÿÿÿÿH§8RMINORZ
+CODE_SMELL
+~
+java:S1128"MRemove this unused import 'org.springframework.integration.dsl.Transformers'.(À†øÿüÿÿÿÿH©8RMINORZ
+CODE_SMELL
+c
+java:S1128"7Remove this unused import 'com.DSLtransform.pojo.City'.(Þˆ³žH«8RMINORZ
+CODE_SMELL
+g
+java:S1128"6Remove this unused import 'javax.xml.bind.Marshaller'.(±æê×úÿÿÿÿH­8RMINORZ
+CODE_SMELL
+|
+java:S1128
+"PRemove this unused import 'org.springframework.integration.dsl.IntegrationFlow'.(ï…ë‰H¯8RMINORZ
+CODE_SMELL
+‚
+java:S1128"QRemove this unused import 'org.springframework.integration.dsl.IntegrationFlows'.( ö÷ÄýÿÿÿÿH±8RMINORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(’°ùŽüÿÿÿÿH³8RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼ÚèàH¶8RMINORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH·8RINFOZ
+CODE_SMELL
+g	java:S125 "<This block of commented-out lines of code should be removed.(åö¨ªH¸8RMAJORZ
+CODE_SMELL
+U
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥ÅHº8RMINORZ
+CODE_SMELL
+e
+java:S1128"9Remove this unused import 'javax.xml.bind.JAXBException'.(ª¥ååH¼8RMINORZ
+CODE_SMELL

@@ -1,0 +1,28 @@
+package com.kafkaintegration.contoller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.messaging.Message;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kafkaintegration.flow.IntegrationGateways;
+
+@RestController
+@RequestMapping("/main")
+public class Endpoint {
+	@Autowired
+	private IntegrationGateways gays;
+
+	@GetMapping("/get")
+	public String messagesent(@RequestBody String s) {
+
+		gays.send(s);
+		return  s;
+	}
+	@GetMapping("/")
+	public Student k() {
+		return new Student();
+	}
+}

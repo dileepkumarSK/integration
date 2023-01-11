@@ -1,0 +1,25 @@
+package com.jenkins.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jenkins.entitys.AnswerSheetsOfQuestionpaper;
+import com.jenkins.pojos.QuestionpaperAnswers;
+import com.jenkins.repositaries.Reposiatry;
+
+@Service
+public class ValidationOfExam {
+	@Autowired
+	private Reposiatry repo;
+
+	public Integer vadidatingMarks(List<AnswerSheetsOfQuestionpaper> q) {
+		List<AnswerSheetsOfQuestionpaper> answer=repo.findByquestionPaperNoByqnoAsc();
+		int x=0;
+		
+	
+		return x;
+	}
+
+}

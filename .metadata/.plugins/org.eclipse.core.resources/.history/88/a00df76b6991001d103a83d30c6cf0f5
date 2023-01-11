@@ -1,0 +1,3 @@
+server.port=1231
+kafka.bootstrap-servers=localhost:9092
+kafka.topic.spring-integration-kafka=inetgration

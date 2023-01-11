@@ -1,0 +1,18 @@
+package com.jenkins.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.jenkins.pojos.QuestionpaperAnswers;
+
+@Service
+public class ValidationOfExam {
+
+	
+	public Integer vadidatingMarks(List<QuestionpaperAnswers> q) {
+		
+		return 0;
+	}
+	
+}

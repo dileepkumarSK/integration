@@ -1,0 +1,38 @@
+package com.splitter;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.integration.annotation.Splitter;
+import org.springframework.integration.splitter.AbstractMessageSplitter;
+import org.springframework.integration.splitter.MethodInvokingSplitter;
+
+import com.splitter.pojo.Movie;
+
+@SpringBootApplication
+public class SpringIntegrationSpillterAndAggregatorApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIntegrationSpillterAndAggregatorApplication.class, args);
+	}
+
+	
+	
+	
+	@Splitter
+	@Bean
+	public AbstractMessageSplitter spiltter()
+	{
+		return  new MethodInvokingSplitter(messageModifier(),"splitter").setOutputChannel("spliiteingsending.to.service");;
+	}
+	
+	
+	class MessageModifier{
+		public Collection<Object> splitter(){
+			return new ArrayList<>();
+		}
+	}
+}

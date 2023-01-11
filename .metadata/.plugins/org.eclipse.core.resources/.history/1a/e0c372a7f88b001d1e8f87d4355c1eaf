@@ -1,0 +1,29 @@
+package com.jenkins.contollers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+
+@RestController
+@RequestMapping("/")
+public class AdminContoller {
+	@GetMapping("/s")
+	public String welcome() {
+		return "Welcome";
+	}
+	/*
+	 * @Autowired ValidationOfExam service;
+	 * 
+	 * @GetMapping("/validate") public Integer validtaion(@RequestBody
+	 * List<AnswerSheetsOfQuestionpaper> q) {
+	 * 
+	 * return service.vadidatingMarks(q); }
+	 * 
+	 * @PostMapping("/addanswersheet") public List<AnswerSheetsOfQuestionpaper>
+	 * addAnswerSheet(@RequestBody List<AnswerSheetsOfQuestionpaper> a) { return
+	 * service.addAnswerSheet(a); }
+	 */
+
+}

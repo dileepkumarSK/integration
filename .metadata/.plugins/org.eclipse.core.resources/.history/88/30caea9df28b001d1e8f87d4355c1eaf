@@ -1,0 +1,18 @@
+package com.jenkins.contollers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jenkins.services.ValidationOfExam;
+
+
+@RestController@RequestMapping
+public class AdminContoller {
+
+	@Autowired
+	public ValidationOfExam service;
+	public Integer validtaion() {
+		
+	}
+}

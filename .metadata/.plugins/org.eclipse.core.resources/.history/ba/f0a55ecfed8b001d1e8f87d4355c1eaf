@@ -1,0 +1,10 @@
+package com.jenkins.repositaries;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.jenkins.entitys.AnswerSheetsOfQuestionpaper;
+import com.jenkins.pojos.QuestionpaperAnswers;
+
+public interface Reposiatry extends JpaRepository<AnswerSheetsOfQuestionpaper, String>{
+
+}

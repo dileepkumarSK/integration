@@ -1,0 +1,29 @@
+package com.jsonAll;
+
+import org.json.JSONObject;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.jsonAll.pojos.Studnet;
+
+@SpringBootApplication
+public class JsonAllApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JsonAllApplication.class, args);
+	}
+	
+	
+	@RequestMapping(value = "jsno", method = RequestMethod.GET)
+	public Studnet list(){
+		Studnet st=new Studnet();
+		st.setName("Dileep");
+		st.setNo(112);
+		st.setSection("a");
+		JSONObject js=new JSONObject(st);
+		return st;
+	}
+
+}

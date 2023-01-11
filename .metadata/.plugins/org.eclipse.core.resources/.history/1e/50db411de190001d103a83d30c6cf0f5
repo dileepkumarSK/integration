@@ -1,0 +1,5 @@
+package com.kafkaintegrationconsumer.configs;
+
+public class Listener {
+
+}

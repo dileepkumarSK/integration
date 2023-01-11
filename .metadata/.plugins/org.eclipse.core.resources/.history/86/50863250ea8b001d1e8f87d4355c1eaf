@@ -1,0 +1,9 @@
+package com.jenkins.pojos;
+
+
+public class Questionpaper {
+
+	private Integer qno;
+	private char answer;
+	
+}

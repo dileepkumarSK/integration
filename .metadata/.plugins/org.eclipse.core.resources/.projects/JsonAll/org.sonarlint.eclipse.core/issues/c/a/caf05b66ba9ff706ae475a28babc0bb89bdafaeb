@@ -1,0 +1,20 @@
+
+^
+java:S6126+"2Replace this String concatenation with Text block.(Ü«óH¦ORMAJORZ
+CODE_SMELL
+y
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ûüÉÎúÿÿÿÿH¢ORMINORZ
+CODE_SMELL
+i	java:S1060"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿH¥ORMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(ù®úÿÿÿÿH§ORMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ÜŒ¶HŸORMINORZ
+CODE_SMELL
+d	java:S106#"9Replace this use of System.out or System.err by a logger.(–Ì²ÈH¤ORMAJORZ
+CODE_SMELL
+¨
+java:S1130"vRemove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.(ô8ÎâÓ«Ø0HÉORMINORZ
+CODE_SMELL
+p	java:S106="9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8œîì«Ø0HşORMAJORZ
+CODE_SMELL
